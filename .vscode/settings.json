@@ -1,0 +1,14 @@
+{
+  "[tailwindcss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "css.lint.validProperties": [
+    "composes"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "off"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ]
+}
